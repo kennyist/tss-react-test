@@ -5,7 +5,7 @@ import { CacheProvider } from "@emotion/react";
 import createCache from "@emotion/cache";
 
 export const muiCache = createCache({
-  key: "css",
+  key: "mui",
   prepend: false,
 });
 
